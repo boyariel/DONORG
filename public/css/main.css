@@ -1,0 +1,26 @@
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.select2-container {
+    z-index: 99999;
+}
+
+h5, h1, h4, h3, h2, label, b, a, li, div,
+input::-webkit-input-placeholder, table, th, td, input:not([type="email"]):not([type="password"]){
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+}
+
+body{
+    font-size: 14px !important;
+}
